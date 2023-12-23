@@ -102,12 +102,12 @@ def cluster_data(path_to_processed_df,
 
 
 if __name__ == '__main__':
-    clean_data(r'C:\Users\z004mybr\Documents\Time Series\ViewMEGAResultsDiff.csv',
+    clean_data(r'C:\Users\z004mybr\Documents\Time Series\ViewResultsDiff.csv',
                'pH',
-               '2PT_CAL',
+               '2PT',
                0.5)
 
-    cluster_data(path_to_processed_df='SlopeData_pH_2PT_CAL.csv',
+    cluster_data(path_to_processed_df='SlopeData_pH_2PTL.csv',
                  analyte='pH',
-                 fluid_name='2PT_CAL',
+                 fluid_name='2PT',
                  k=0.5)
