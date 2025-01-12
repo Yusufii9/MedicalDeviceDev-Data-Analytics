@@ -102,7 +102,7 @@ def cluster_data(path_to_processed_df,
 
 
 if __name__ == '__main__':
-    clean_data(r'C:\Users\z004mybr\Documents\Time Series\ViewResultsDiff.csv',
+    clean_data(r'Time Series\ViewResultsDiff.csv',
                'pH',
                '2PT',
                0.5)
